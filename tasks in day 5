@@ -1,0 +1,21 @@
+**(IIFE) function
+
+let nov1=450:
+let nov2=550;
+
+(function (){
+let result = nov1+nov2;
+console.log(result);
+})();
+
+**arrow function
+
+const orders = [
+       { id:1,item:"smartphones",quantity:1},
+        { id:2,item:"Ac",quantity:1},
+         { id:3,item:"Maagi",quantity:1},
+]
+
+let result =orders.find(() => orders.item === "Maagi")
+
+console.log(result);
